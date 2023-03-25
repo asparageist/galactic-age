@@ -4,9 +4,11 @@ export default class Age {
     this.userAge = userAge;
   }
 
-  earthAge() {
+  newAge() {
     const newAge = this.userAge * 365;
-    return (newAge);
+    const venus = newAge / 88;
+    const venusAge = Math.trunc(venus);
+    return [newAge, venusAge];
   }
 
 }

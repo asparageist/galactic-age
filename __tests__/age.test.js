@@ -9,10 +9,10 @@ describe('Age', () => {
   });
 
   test('should calculate the age of a user in days', () => {
-    expect(userAge.earthAge()).toEqual(14600);
+    expect(userAge.newAge()).toEqual[14600,165];
   });
 
   test('should calculate the age of a user in venus years', () => {
-    expect(userAge.venusAge()).toEqual(165);
+    expect(userAge.newAge()).toEqual[14600,165];
   })
 });
