@@ -1,10 +1,15 @@
 import Age from '../src/js/age.js';
 
-describe('Template', () => {
-  
+describe('Age', () => {
+
+  let userAge;
+
+  beforeEach(() => {
+    userAge = new Age(40);
+  });
+
   test('should calculate the age of a user in days', () => {
-    const userAge = 40;
-    expect(userAge).toEqual("14600");
+    expect(userAge.earthAge()).toEqual(14600);
 
   });
 });
