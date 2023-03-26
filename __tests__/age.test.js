@@ -9,14 +9,18 @@ describe('Age', () => {
   });
 
   test('should calculate the age of a user in days', () => {
-    expect(userAge.newAge()).toEqual[14600,165];
+    expect(userAge.newAge()).toEqual[14600,166,64,21];
   });
 
   test('should calculate the age of a user in Venus years', () => {
-    expect(userAge.newAge()).toEqual[14600,165];
+    expect(userAge.newAge()).toEqual[14600,166,64,21];
   });
 
   test('should calculate the age of a user in Mercury years', () => {
-    expect(userAge.newAge()).toEqual[14600,165,9]
+    expect(userAge.newAge()).toEqual[14600,166,64,21];
+  });
+
+  test('should calculate the age of a user in Mars years', () => {
+    expect(userAge.newAge()).toEqual[14600,166,64,21];
   });
 });

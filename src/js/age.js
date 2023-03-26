@@ -5,12 +5,15 @@ export default class Age {
   }
 
   newAge() {
-    const newAge = this.userAge * 365;
-    const venus = newAge / 88;
-    const mercury = newAge * .24;
+    const newAge = this.userAge;
+    const ageDays = newAge * 365;
+    const venus = newAge / .62;
+    const mercury = newAge / .24;
+    const mars = newAge / 1.88;
     const venusAge = Math.trunc(venus);
     const mercuryAge = Math.trunc(mercury);
-    return [newAge, venusAge, mercuryAge];
+    const marsAge = Math.trunc(mars);
+    return [ageDays, venusAge, mercuryAge, marsAge];
   }
 
 }
