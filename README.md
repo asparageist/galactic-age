@@ -1,17 +1,17 @@
-# (Application Name)
+# Galactic Age
 
-#### (Brief Description of Application)
+#### Galactic Age will test various javascript files using Jest, lint and other webpacks, listed below. The tests cover a hypothetical app that calculates what a user's age would be on different planets in our solar system.
 
-#### By (Your Name Here)
+#### By Joseph Murray
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
-
-## Description
+- JavaScript
+- HTML
+- Jest
+- Lint
+- webpack
+- Babel
 
 ## Setup/Installation Requirements
 
@@ -30,9 +30,6 @@
 - jest@24.9.0 --save-dev
 - add "test" : "jest" to scripts in package.json
 
-## Known Bugs
-
-- _Any known issues_
-- _should go here_
-
 ## License
+
+_copyright Joseph Murray 2023_
