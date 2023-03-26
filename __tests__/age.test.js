@@ -12,7 +12,11 @@ describe('Age', () => {
     expect(userAge.newAge()).toEqual[14600,165];
   });
 
-  test('should calculate the age of a user in venus years', () => {
+  test('should calculate the age of a user in Venus years', () => {
     expect(userAge.newAge()).toEqual[14600,165];
-  })
+  });
+
+  test('should calculate the age of a user in Mercury years', () => {
+    expect(userAge.newAge()).toEqual[14600,165,9]
+  });
 });
