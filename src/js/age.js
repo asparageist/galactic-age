@@ -3,13 +3,14 @@ export default class Age {
   constructor(userAge, secondAge){
     this.userAge = userAge;
     this.secondAge = secondAge;
+    this.ageDiff = secondAge - userAge;
     this.ageDays = userAge * 365;
   };
 
   earthDays() {
     return(this.ageDays);
   };
-
+  
   newAge() {
     const newAge = this.userAge;
     const venus = newAge / .62;
@@ -25,10 +26,16 @@ export default class Age {
   };
 
   yearsPast() {
-    const earth = this.secondAge - this.userAge;
-    const mercury = earth / .24;
-    const venus = earth / .62;
-    const planetAges = [earth, mercury, venus];
+    const earth = this.ageDiff;
+    const mercury = this.ageDiff / .24;
+    const venus = this.ageDiff / .62;
+    const mars = this.ageDiff / 1.88;
+    const jupiter = this.ageDiff / 11.86;
+    const venusAge = Math.trunc(venus);
+    const mercuryAge = Math.trunc(mercury);
+    const marsAge = Math.trunc(mars);
+    const jupiterAge = Math.trunc(jupiter);
+    const planetAges = [venusAge, mercuryAge, marsAge, jupiterAge];
     return(planetAges);
   };
 }
