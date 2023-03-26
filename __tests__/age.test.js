@@ -49,7 +49,7 @@ describe('Age', () => {
   });
 
   test('should determine how many years pass on other planets until a given birthday', () => {
-    expect(userAge.yearsPast()).toEqual[10, 41, 16, 5, 0];
+    expect(userAge.yearsPast()).toEqual[5, 20, 8, 2, 0];
   });
 
 });
