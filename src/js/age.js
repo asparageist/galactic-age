@@ -27,7 +27,8 @@ export default class Age {
   yearsPast() {
     const earth = this.secondAge - this.userAge;
     const mercury = earth / .24;
-    const planetAges = [earth, mercury];
+    const venus = earth / .62;
+    const planetAges = [earth, mercury, venus];
     return(planetAges);
   };
 }
