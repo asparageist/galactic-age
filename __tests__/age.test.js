@@ -29,10 +29,14 @@ describe('Age', () => {
   });
 
   test('should determine how many years pass on Earth since a past birthday', () => {
-    expect(userAge.yearsPast()).toEqual[10,2.4];
+    expect(userAge.yearsPast()).toEqual[10,2.4,6.2];
   });
 
   test('should determine how many years pass on Mercury since a past birthday', () => {
-    expect(userAge.yearsPast()).toEqual[10,2.4];
+    expect(userAge.yearsPast()).toEqual[10,2.4,6.2];
+  });
+
+  test('should determine how many years pass on Venus since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual[10,2.4,6.2];
   });
 });
