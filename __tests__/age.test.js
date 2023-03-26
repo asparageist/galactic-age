@@ -5,7 +5,7 @@ describe('Age', () => {
   let userAge = [];
 
   beforeEach(() => {
-    userAge = new Age(40,50);
+    userAge = new Age(40,50,55);
   });
 
   test('should calculate the age of a user in days', () => {
@@ -45,6 +45,10 @@ describe('Age', () => {
   });
 
   test('should determine how many years pass on Jupiter since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual[10, 41, 16, 5, 0];
+  });
+
+  test('should determine how many years pass on other planets until a given birthday', () => {
     expect(userAge.yearsPast()).toEqual[10, 41, 16, 5, 0];
   });
 
