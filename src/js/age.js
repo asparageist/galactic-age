@@ -20,11 +20,14 @@ export default class Age {
     const mercuryAge = Math.trunc(mercury);
     const marsAge = Math.trunc(mars);
     const jupiterAge = Math.trunc(jupiter);
-    return [venusAge, mercuryAge, marsAge, jupiterAge];
+    const planetAges = [venusAge, mercuryAge, marsAge, jupiterAge];
+    return(planetAges);
   };
 
   yearsPast() {
     const earth = this.secondAge - this.userAge;
-    return(earth);
+    const mercury = earth / .24;
+    const planetAges = [earth, mercury];
+    return(planetAges);
   };
 }
