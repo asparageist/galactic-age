@@ -16,21 +16,21 @@ describe('Age', () => {
     expect(userAge.newAge()).toEqual([64,166,21,3]);
   });
 
-  // test('should calculate the age of a user in Mercury years', () => {
-  //   expect(userAge.newAge()).toEqual([166,64,21,3]);
-  // });
+  test('should calculate the age of a user in Mercury years', () => {
+    expect(userAge.newAge()).toEqual([64,166,21,3]);
+  });
 
-  // test('should calculate the age of a user in Mars years', () => {
-  //   expect(userAge.newAge()).toEqual([166,64,21,3]);
-  // });
+  test('should calculate the age of a user in Mars years', () => {
+    expect(userAge.newAge()).toEqual([64,166,21,3]);
+  });
 
-  // test('should calculate the age of a user in Jupiter years', () => {
-  //   expect(userAge.newAge()).toEqual([166,64,21,3]);
-  // });
+  test('should calculate the age of a user in Jupiter years', () => {
+    expect(userAge.newAge()).toEqual([64,166,21,3]);
+  });
 
-  // test('should determine how many years pass on Earth since a past birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
-  // });
+  test('should determine how many years pass on Earth since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
+  });
 
   // test('should determine how many years pass on Mercury since a past birthday', () => {
   //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
