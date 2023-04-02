@@ -47,11 +47,11 @@ export default class Age {
     const venus = this.nextAgeDiff / .62;
     const mars = this.nextAgeDiff / 1.88;
     const jupiter = this.nextAgeDiff / 11.86;
-    const venusAge = Math.trunc(venus);
     const mercuryAge = Math.trunc(mercury);
+    const venusAge = Math.trunc(venus);
     const marsAge = Math.trunc(mars);
     const jupiterAge = Math.trunc(jupiter);
-    const planetAges = [venusAge, mercuryAge, marsAge, jupiterAge];
+    const planetAges = [earth, mercuryAge, venusAge, marsAge, jupiterAge];
     return(planetAges);
   };
 }

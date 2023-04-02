@@ -32,24 +32,24 @@ describe('Age', () => {
     expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
   });
 
-  // test('should determine how many years pass on Mercury since a past birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
-  // });
+  test('should determine how many years pass on Mercury since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
+  });
 
-  // test('should determine how many years pass on Venus since a past birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
-  // });
+  test('should determine how many years pass on Venus since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
+  });
 
-  // test('should determine how many years pass on Mars since a past birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
-  // });
+  test('should determine how many years pass on Mars since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
+  });
 
-  // test('should determine how many years pass on Jupiter since a past birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
-  // });
+  test('should determine how many years pass on Jupiter since a past birthday', () => {
+    expect(userAge.yearsPast()).toEqual([10, 41, 16, 5, 0]);
+  });
 
-  // test('should determine how many years pass on other planets until a given birthday', () => {
-  //   expect(userAge.yearsPast()).toEqual([5, 20, 8, 2, 0]);
-  // });
+  test('should determine how many years pass on other planets until a given birthday', () => {
+    expect(userAge.yearsNext()).toEqual([5, 20, 8, 2, 0]);
+  });
 
 });
